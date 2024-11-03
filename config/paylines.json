@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Payline 1",
+      "positions": [0, 0, 0]
+    },
+    {
+      "name": "Payline 2",
+      "positions": [1, 1, 1]
+    },
+    {
+      "name": "Payline 3",
+      "positions": [2, 2, 2]
+    }
+
+  ]
+  

@@ -1,0 +1,11 @@
+{
+    "High1": "images/star.png",
+    "High2": "images/circle.png",
+    "Low1": "images/hexagon.png",
+    "Low2": "images/pentagon.png",
+    "Low3": "images/triangle.png",
+    "Low4": "images/square.png",
+    "Wild": "images/wild.png",
+    "Scatter": "images/scatter.png"    
+  }
+  

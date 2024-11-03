@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slot Machine Simulation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="slot-machine">
+    <h1>Slot Machine Simulation</h1>
+    
+    <!-- Betting Options -->
+    <div class="betting-options">
+      <label for="bet-amount">Bet Amount:</label>
+      <select id="bet-amount">
+        <option value="1">1 unit</option>
+        <option value="5">5 units</option>
+        <option value="10">10 units</option>
+      </select>
+    </div>
+    
+    <!-- User Balance Display -->
+    <p>User Balance: <span id="user-balance">1000</span> units</p>
+    
+    <!-- Visualization Area: Reels -->
+    <div class="reels">
+      <div id="free-spins-indicator" class="free-spins-indicator hidden">
+        <h2>Free Spins: <span id="free-spins-count">0</span></h2>
+      </div>
+      <div class="reel" id="reel-1">
+        <!-- Symbols will be populated here dynamically -->
+      </div>
+      <div class="reel" id="reel-2">
+        <!-- Symbols will be populated here dynamically -->
+      </div>
+      <div class="reel" id="reel-3">
+        <!-- Symbols will be populated here dynamically -->
+      </div>
+    </div>
+    
+    <!-- Spin Button -->
+    <button id="spin-button">Spin</button>
+    
+    <!-- Winning Paylines and Total Win Section -->
+    <div class="results">
+      <h2>Winning Paylines</h2>
+      <p id="winning-paylines">None</p>
+      
+      <h2>Total Win</h2>
+      <p id="total-win">0</p>
+    </div>
+
+    <!-- Statistics Section -->
+    <div class="stats">
+      <p>Total Spins: <span id="total-spins">0</span></p>
+      <p>Total Bet: <span id="total-bet">0</span> units</p>
+      <p>Total Payout: <span id="total-payout">0</span> units</p>
+      <p>Return to Player (RTP): <span id="rtp">0</span>%</p>
+      <p>Hit Rate: <span id="hit-rate">0</span>%</p>
+      <p>Jackpot Hits (3 Sevens): <span id="jackpot-hits">0</span> times</p>
+      <p>Super Jackpot Hits (3 Wilds): <span id="super-jackpot-hits">0</span> times</p>
+    </div>
+    
+    <!-- Payout Frequencies Section -->
+    <div class="payout-frequencies">
+      <h2>Payout Frequencies</h2>
+      <ul id="payout-list">
+        <!-- Payout frequencies will be populated here -->
+      </ul>
+    </div>
+    
+    <!-- Optional: Win Sound -->
+    <audio id="win-sound" src="sounds/win.mp3" preload="auto"></audio>
+    
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

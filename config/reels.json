@@ -1,0 +1,5 @@
+[
+  ["Scatter", "Low2", "Low3", "Low4", "High1", "Low1", "Low2", "Low3", "Low4", "High2", "Low1", "Low2", "Low3", "Low1", "High1", "Low1", "Low2", "Low1", "High2", "Low1", "Low2", "Wild", "Low3", "Low4", "High1"],
+  ["Scatter", "Low3", "Low4", "Low1", "Low1", "Low2", "Low3", "Low1", "Low1", "Low2", "Low3", "Low4", "High1", "Low1", "Low2", "Low1", "High2", "Low1", "Low2", "Wild", "Low3", "Low4", "Low1", "Low2", "Low3"],
+  ["Scatter", "Low2", "Low3", "Low4", "High1", "Low1", "Low2", "Low3", "Low4", "Low1", "Low1", "Low2", "Low3", "High1", "Low1", "Low2", "Scatter", "High2", "Low1", "Wild", "Low2", "Scatter", "Low4", "High1", "Low2"]
+]
