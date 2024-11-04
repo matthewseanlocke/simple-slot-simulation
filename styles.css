@@ -39,8 +39,8 @@ body {
 }
 
 .reel {
-  width: 100px;
-  height: 300px; /* Adjusted Height */
+  width: 150px;
+  height: 400px; /* Adjusted Height */
   border: 2px solid #ecf0f1;
   border-radius: 10px;
   margin: 0 10px;
@@ -53,19 +53,19 @@ body {
 }
 
 .symbol {
-  width: 80px; /* Fixed width */
-  height: 80px; /* Fixed height */
-  margin: 10px 0; /* Maintain spacing */
-  transition: transform 0.2s; /* Optional: Scaling on hover */
+  width: 100px; /* Increased from 80px */
+  height: 100px; /* Increased from 80px */
+  margin: 10px 0;
+  transition: transform 0.2s;
 }
 
 .symbol img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensure the image scales properly */
-  border: 2px solid #ecf0f1; /* Optional: Add border for better visibility */
-  border-radius: 10px;       /* Optional: Rounded corners */
-  background-color: #fff;    /* Optional: Background color behind images */
+  object-fit: contain;
+  border: 2px solid #ecf0f1;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 #spin-button {
@@ -142,8 +142,8 @@ body {
   }
 
   .symbol {
-    width: 60px;
-    height: 60px;
+    width: 70px;  /* Increased from 60px */
+    height: 70px; /* Increased from 60px */
     margin: 8px 0;
   }
 
