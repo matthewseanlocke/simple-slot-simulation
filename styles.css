@@ -213,8 +213,8 @@ body {
 }
 
 .paytable-item img {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   margin-bottom: 10px;
   background-color: #fff;
